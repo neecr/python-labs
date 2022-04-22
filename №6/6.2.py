@@ -2,7 +2,7 @@ from random import randint
 
 spisok = []
 
-for i in range(5):
+for i in range(2):
     spisok.append([randint(-3, 3) for j in range(5)])
 
 print("Данный список : ", end = "")

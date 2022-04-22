@@ -1,7 +1,7 @@
 from random import randint
 
-mass = [randint(1, 10) for i in range(5)]
-# mass.sort()
+mass = [randint(1, 10) for i in range(15)]
+mass.sort()
 print(mass)
 
 mostcount = 0
