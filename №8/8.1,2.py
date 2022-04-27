@@ -6,13 +6,17 @@ def find_class():
 
 
 school = {
-    '1а': 21,
-    '1б': 25,
-    '2в': 30
+    '1А': 21,
+    '1Б': 25,
+    '2В': 30
 }
 
-print(school)
+print(school.keys())
 
 user_class = input('Введите класс для получения кол-ва учеников в ней: ')
 
 print(find_class())
+
+school["1A"] += 4
+
+print(school)

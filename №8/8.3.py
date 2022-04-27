@@ -1,11 +1,11 @@
-dictionary_1 = { 'a': 300,
-                 'b': 400 }
+dict1 = { 'a': 300,
+          'b': 400 }
 
-dictionary_2 = { 'c': 500,
-                 'd': 600 }
+dict2 = { 'c': 500,
+          'd': 600 }
 
-print(dictionary_1)
-print(dictionary_2)
+print(dict1)
+print(dict2)
 
-dictionary_1.update(dictionary_2)
-print(dictionary_1)
+dict1.update(dict2)
+print(dict1)
