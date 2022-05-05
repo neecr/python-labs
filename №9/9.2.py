@@ -3,4 +3,4 @@ def bank(a, years):
         a = a+(a*0.22)
     return a
 
-print(bank(1000, 1))
+print(f"К оплате - {bank(1000, 1)} рублей")

@@ -1,2 +1,2 @@
-statement = "5*4+2"
+statement = input("Введите пример: ")
 print(eval(statement))

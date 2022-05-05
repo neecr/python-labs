@@ -1,4 +1,4 @@
-word = "DenisLSP"
+word = "London is capital of Great Britain"
 upper = 0
 lower = 0
 

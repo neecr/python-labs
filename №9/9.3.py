@@ -9,7 +9,7 @@ def date(day, mouth, year):
     return False
 
 
-print(date(29, 2, 2020))
-print(date(32, 13, 2020))
-print(date(12, 12, 2022))
+print(f'Дата 29.02.2020 - {date(29, 2, 2020)}')
+print(f'Дата 32.02.2020 - {date(32, 2, 2020)}')
+print(f'Дата 29.31.2020 - {date(29, 31, 2020)}')
 print()
