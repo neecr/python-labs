@@ -8,7 +8,7 @@
 
 kolvo1 = 0
 kolvo2 = 0
-mass = int(input("Число mass : "))
+mass = int(input("Число x : "))
 b = int(input("Число b : "))
 if mass > b:
     print("а должно быть меньше b")

@@ -18,5 +18,4 @@ for i in range(16):
     if mass[i][2] < 3:
         print(f"{mass[i][0]} {mass[i][1]} - оценка {mass[i][2]}")
 
-print(f"Средняя оценка по классу: {round(summ/16, 2)}")
-
+print(f"Средняя оценка по классу: {round(summ / 16, 2)}")

@@ -1,4 +1,4 @@
-file = open("2.txt", "a", encoding = "utf-8")
+file = open("2.txt", "sphere", encoding = "utf-8")
 
 while True:
     text = input("Введите строку: ")
